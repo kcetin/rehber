@@ -2,6 +2,7 @@ import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
 import 'package:built_collection/built_collection.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:latlong/latlong.dart';
 
 import 'schema_util.dart';
 import 'serializers.dart';
@@ -69,7 +70,7 @@ Map<String, dynamic> createHastaneIdareRecordData({
   String resimUrl,
   String telefon,
 }) =>
-    serializers.serializeWith(
+    serializers.toFirestore(
         HastaneIdareRecord.serializer,
         HastaneIdareRecord((h) => h
           ..brans = brans

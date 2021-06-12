@@ -9,6 +9,7 @@ import 'anasayfa/anasayfa_widget.dart';
 import 'icapci/icapci_widget.dart';
 import 'yonetim/yonetim_widget.dart';
 import 'acilis/acilis_widget.dart';
+import 'nobetci/nobetci_widget.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -78,6 +79,7 @@ class _NavBarPageState extends State<NavBarPage> {
       'icapci': IcapciWidget(),
       'yonetim': YonetimWidget(),
       'acilis': AcilisWidget(),
+      'Nobetci': NobetciWidget(),
     };
     return Scaffold(
       body: tabs[_currentPage],
@@ -125,6 +127,13 @@ class _NavBarPageState extends State<NavBarPage> {
               size: 24,
             ),
             label: 'Giriş',
+          ),
+          BottomNavigationBarItem(
+            icon: FaIcon(
+              FontAwesomeIcons.moon,
+              size: 24,
+            ),
+            label: 'Nöbetçi',
           )
         ],
         backgroundColor: Colors.white,

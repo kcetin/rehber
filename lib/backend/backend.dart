@@ -10,6 +10,7 @@ import 'schema/hastane_idare_record.dart';
 import 'schema/serializers.dart';
 
 export 'package:cloud_firestore/cloud_firestore.dart';
+export 'schema/serializers.dart';
 export 'schema/users_record.dart';
 export 'schema/aydin_kadin_dogum_record.dart';
 export 'schema/hastane_idare_record.dart';
