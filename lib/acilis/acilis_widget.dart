@@ -75,10 +75,10 @@ class _AcilisWidgetState extends State<AcilisWidget> {
                       padding: EdgeInsets.fromLTRB(0, 15, 0, 0),
                       child: Column(
                         mainAxisSize: MainAxisSize.max,
-                        mainAxisAlignment: MainAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.start,
                         children: [
                           Padding(
-                            padding: EdgeInsets.fromLTRB(0, 30, 0, 0),
+                            padding: EdgeInsets.fromLTRB(0, 15, 0, 0),
                             child: Row(
                               mainAxisSize: MainAxisSize.max,
                               mainAxisAlignment: MainAxisAlignment.center,

@@ -20,7 +20,7 @@ abstract class UsersRecord implements Built<UsersRecord, UsersRecordBuilder> {
 
   @nullable
   @BuiltValueField(wireName: 'created_time')
-  Timestamp get createdTime;
+  DateTime get createdTime;
 
   @nullable
   String get email;
@@ -59,7 +59,7 @@ abstract class UsersRecord implements Built<UsersRecord, UsersRecordBuilder> {
 Map<String, dynamic> createUsersRecordData({
   String photoUrl,
   String uid,
-  Timestamp createdTime,
+  DateTime createdTime,
   String email,
   String phoneNumber,
   String displayName,
