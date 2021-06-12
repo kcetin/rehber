@@ -6,12 +6,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class RehberDetailWidget extends StatefulWidget {
-  RehberDetailWidget({
-    Key key,
-    this.detailTerm,
-  }) : super(key: key);
-
-  final String detailTerm;
+  RehberDetailWidget({Key key}) : super(key: key);
 
   @override
   _RehberDetailWidgetState createState() => _RehberDetailWidgetState();

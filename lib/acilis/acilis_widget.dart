@@ -6,12 +6,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:page_transition/page_transition.dart';
 
 class AcilisWidget extends StatefulWidget {
-  AcilisWidget({
-    Key key,
-    this.tlf,
-  }) : super(key: key);
-
-  final String tlf;
+  AcilisWidget({Key key}) : super(key: key);
 
   @override
   _AcilisWidgetState createState() => _AcilisWidgetState();
