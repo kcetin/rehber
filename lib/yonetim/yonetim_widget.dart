@@ -2,6 +2,7 @@ import '../backend/backend.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../rehber_detail/rehber_detail_widget.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:page_transition/page_transition.dart';
@@ -183,8 +184,9 @@ class _YonetimWidgetState extends State<YonetimWidget> {
                                     padding: EdgeInsets.fromLTRB(8, 8, 8, 8),
                                     child: ClipRRect(
                                       borderRadius: BorderRadius.circular(8),
-                                      child: Image.network(
-                                        listViewHastaneIdareRecord.resimUrl,
+                                      child: CachedNetworkImage(
+                                        imageUrl:
+                                            listViewHastaneIdareRecord.resimUrl,
                                         width: 74,
                                         height: 74,
                                         fit: BoxFit.cover,
