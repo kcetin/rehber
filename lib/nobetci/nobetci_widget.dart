@@ -141,7 +141,7 @@ class _NobetciWidgetState extends State<NobetciWidget> {
                         ),
                       ),
                     ),
-                    Spacer()
+                    Spacer(flex: 10)
                   ],
                 ),
               ),
