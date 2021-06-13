@@ -42,7 +42,8 @@ class _NobetciWidgetState extends State<NobetciWidget> {
               child: Padding(
                 padding: EdgeInsets.fromLTRB(0, 34, 0, 0),
                 child: Column(
-                  mainAxisSize: MainAxisSize.max,
+                  mainAxisSize: MainAxisSize.min,
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Padding(
                       padding: EdgeInsets.fromLTRB(16, 0, 0, 0),
