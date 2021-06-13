@@ -40,7 +40,7 @@ class _NobetciWidgetState extends State<NobetciWidget> {
                 ),
               ),
               child: Padding(
-                padding: EdgeInsets.fromLTRB(0, 34, 0, 0),
+                padding: EdgeInsets.fromLTRB(0, 34, 1, 1),
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -62,7 +62,7 @@ class _NobetciWidgetState extends State<NobetciWidget> {
                       ),
                     ),
                     Padding(
-                      padding: EdgeInsets.fromLTRB(12, 0, 12, 0),
+                      padding: EdgeInsets.fromLTRB(12, 1, 12, 1),
                       child: Card(
                         clipBehavior: Clip.antiAliasWithSaveLayer,
                         color: Colors.white,

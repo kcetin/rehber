@@ -10,6 +10,7 @@ import 'nobetci/nobetci_widget.dart';
 import 'icapci/icapci_widget.dart';
 import 'yonetim/yonetim_widget.dart';
 import 'acilis/acilis_widget.dart';
+import 'nbtc/nbtc_widget.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -80,6 +81,7 @@ class _NavBarPageState extends State<NavBarPage> {
       'icapci': IcapciWidget(),
       'yonetim': YonetimWidget(),
       'acilis': AcilisWidget(),
+      'nbtc': NbtcWidget(),
     };
     return Scaffold(
       body: tabs[_currentPage],
@@ -134,6 +136,13 @@ class _NavBarPageState extends State<NavBarPage> {
               size: 24,
             ),
             label: 'Giriş',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.chat_bubble_outline_sharp,
+              size: 24,
+            ),
+            label: 'nbtc',
           )
         ],
         backgroundColor: Colors.white,
